@@ -1,5 +1,6 @@
 import Kavish1 from './images/Kavish1.jpeg';
 import Kavish01 from './images/Kavish01.jpg';
+import resume from './Files/Kavish Paul resume.pdf';
 import './App.css';
 
 function App() {
@@ -56,8 +57,8 @@ function App() {
         <main class="main4" id="main4">
             <h1>Contact Me</h1>
             <div class="buttons">
-                <button class="button1"><a href="Files/Kavish Paul resume.pdf" target="_blank">View Resume</a></button>
-                <button class="button2"><a href="Files/Kavish Paul resume.pdf" download>Download Resume</a></button>
+                <button class="button1"><a href={resume} target="_blank">View Resume</a></button>
+                <button class="button2"><a href={resume} download>Download Resume</a></button>
             </div>
             <div class="icons">
                 <a href="https://linkedin.com/in/Kavish-Paul" target="_blank" class="fa fa-linkedin"></a>
